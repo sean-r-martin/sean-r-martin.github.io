@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-r-martin/react-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean-r-martin/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sean-r-martin/react-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
