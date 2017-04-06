@@ -1,3 +1,31 @@
 html {
   box-sizing: border-box;
+  font-size: 20px;
+}
+section {
+  text-align: center;
+}
+
+.video {
+  width: 88vw;
+  height: 50vw;
+  min-width: 672px;
+  min-height: 378px;
+}
+.project-description {
+  text-align: left;
+  overflow: hidden;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 1280px) {
+  .video {
+    float: left;
+    width: 36vw;
+    height: 20vw;
+  }
 }
