@@ -1,20 +1,33 @@
 html {
   box-sizing: border-box;
-  font-size: 20px;
-}
-section {
   text-align: center;
 }
+header {
+  font-size: 40px;
+}
 
+section {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.blue-background {
+  background-color: lightblue;
+}
+.icon {
+  font-size: 100px;
+}
 .video {
   width: 88vw;
   height: 50vw;
+  padding: 20px;
   min-width: 672px;
   min-height: 378px;
 }
 .project-description {
   text-align: left;
   overflow: hidden;
+  padding: 20px;
 }
 .group:after {
   content: "";
