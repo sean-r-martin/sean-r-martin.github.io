@@ -1,11 +1,13 @@
 'use strict';
 
 (function createAutoLingoDescription() {
+  var divTag = document.getElementById('autolingo-text');
 
-  function createText(elementId, text) {
-    var elementTag = document.getElementById(elementId);
+  function createText(text) {
+    var pTag = document.createElement("p");
     var textNode = document.createTextNode(text);
-    elementTag.appendChild(textNode);
+    pTag.appendChild(textNode);
+    divTag.appendChild(pTag);
   }
 
   var autoLingoText = [];
@@ -26,9 +28,8 @@
     'Speech and Translation Technologies used: Web RTC (video and audio), Web Speech API (speech-to-text), Google Translation API.'
   );
 
-  autoLingoText.forEach(function (text, index) {
-    var elementId = 'autolingo-text' + index;
-    createText(elementId, text);
+  autoLingoText.forEach(function (text) {
+    createText(text)
   });
 
 })();

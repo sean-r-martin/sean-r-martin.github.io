@@ -6,55 +6,64 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/font-awesome.css">
     <link rel="icon" href="/img/lightning-bolt.png">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Sean Martin</h1>
-      <h3>Software Engineer</h3>
+      <h1 class="no-margin">Sean Martin</h1>
+      <h4 class="no-margin">Software Engineer</h4>
     </header>
     <div class="icon">
       <a href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
       <a href="https://github.com/sean-r-martin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
       <a href="/docs/sean-martin-resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/sean-r-martin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="http://stackoverflow.com/users/7612576/s-martin"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
     </div>
     <main>
+      <section id="story">
+        <h1>My Story</h1>
+        <div id="story-text" class="section-description"></div>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <div class="list">
+          <ul id="skill-list"></ul>
+        </div>
+      </section>
+      <h1>Projects</h1>
       <section id="project-autolingo" class="group blue-background">
         <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
-        <div class="project-description">
+        <div class="section-description">
           <h1>AutoLingo: Live Translation</h1>
-          <p id="autolingo-text0"></p>
-          <p id="autolingo-text1"></p>
-          <p id="autolingo-text2"></p>
-          <p id="autolingo-text3"></p>
-          <p id="autolingo-text4"></p>
+          <div id="autolingo-text"></div>
           <form target="_blank"><button formaction="https://github.com/AutoLingo/autolingo">Github</button></form>
           <form target="_blank"><button formaction="https://autolingo.herokuapp.com/">Live App</button></form>
         </div>
       </section>
       <section id="project-navi" class="group">
         <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Dj4cRARYuhQ" frameborder="0" allowfullscreen></iframe>
-        <div class="project-description">
+        <div class="section-description">
           <h1>Navi: Dynamic Event Information</h1>
-          <p id="navi-text0"></p>
-          <p id="navi-text1"></p>
-          <p id="navi-text2"></p>
+          <div id="navi-text"></div>
           <form target="_blank"><button formaction="https://github.com/Navi-events/navi">Github</button></form>
         </div>
       </section>
       <section id="project-techtalk" class="group blue-background">
         <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/YWM6mdUS7Kg" frameborder="0" allowfullscreen></iframe>
-        <div class="project-description">
+        <div class="section-description">
           <h1>Tech Talk: ES6 Maps, Sets & Symbols</h1>
-          <p id="techtalk-text"></p>
+          <div id="techtalk-text"></div>
         </div>
       </section>
     </main>
     <footer>
 
     </footer>
-    <script src="/js/projectAutoLingo.js" ></script>
-    <script src="/js/projectNavi.js" ></script>
-    <script src="/js/projectTechTalk.js" ></script>
+    <script src="/js/story.js"></script>
+    <script src="/js/skills.js"></script>
+    <script src="/js/projectAutoLingo.js"></script>
+    <script src="/js/projectNavi.js"></script>
+    <script src="/js/projectTechTalk.js"></script>
   </body>
 </html>

@@ -1,11 +1,13 @@
 'use strict';
 
 (function createNaviDescription() {
+  var divTag = document.getElementById('navi-text');
 
-  function createText(elementId, text) {
-    var elementTag = document.getElementById(elementId);
+  function createText(text) {
+    var pTag = document.createElement("p");
     var textNode = document.createTextNode(text);
-    elementTag.appendChild(textNode);
+    pTag.appendChild(textNode);
+    divTag.appendChild(pTag);
   }
 
   var naviText = [];
@@ -20,9 +22,8 @@
     'Event Information APIs used: Eventful.com, Meetup.com, NYC Developer Portal.'
   );
 
-  naviText.forEach(function (text, index) {
-    var elementId = 'navi-text' + index;
-    createText(elementId, text);
+  naviText.forEach(function (text) {
+    createText(text);
   });
 
 })();
