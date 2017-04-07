@@ -20,7 +20,6 @@
     'Redux',
     'HTML5',
     'CSS3',
-    'Sass',
     'AJAX',
     'jQuery',
     'Bootstrap'
@@ -35,7 +34,6 @@
     'Chai',
     'Git',
     'Ruby',
-    'Socket.io'
   ];
 
   skillList1.forEach(function (skill) {
