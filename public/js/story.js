@@ -4,8 +4,6 @@
   var divTag = document.getElementById('story-text');
 
   function createText(text) {
-    console.log('TEXT', text)
-
     var pTag = document.createElement("p");
     var textNode = document.createTextNode(text);
     pTag.appendChild(textNode);

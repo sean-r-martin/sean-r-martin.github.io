@@ -11,24 +11,38 @@ header {
 section {
   font-size: 20px;
   margin: 20px 0;
+  height: 50vh;
 }
+
+ul {
+  /*columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;*/
+  width: 500px;
+  margin: 0 auto;
+}
+
 
 .no-margin {
   margin: 0;
 }
 
-.list {
+/*.list {
   text-align: left;
   display: inline;
   width: 45vw;
-  list-style-position: inside;
+}*/
+
+#skill-container {
+  width: 1240px;
+  margin: 0 auto;
 }
 
-ul {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  width: 500px;
+.skill-list {
+  display: inline;
+}
+
+.skill-list p {
   margin: 0 auto;
 }
 
@@ -37,6 +51,10 @@ ul {
 }
 .icon {
   font-size: 100px;
+}
+
+.logo {
+  width: 100px;
 }
 .video {
   width: 88vw;
@@ -54,6 +72,11 @@ ul {
   content: "";
   display: table;
   clear: both;
+}
+
+.box {
+  width: 310px;
+  float: left;
 }
 
 @media (min-width: 1280px) {
