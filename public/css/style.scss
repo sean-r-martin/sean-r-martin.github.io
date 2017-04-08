@@ -19,11 +19,6 @@ body	{
   background:url(/img/alpin-river.jpg) top left no-repeat;
   background-size: cover;
   background-attachment:fixed;
-  color: black;
-}
-
-main {
-  width: 100vw;
 }
 
 header {
@@ -37,8 +32,20 @@ section {
   height: 100vh;
 }
 
+#header-content {
+  padding-top: 20vh;
+}
+
 #project-section {
   height: 150vh;
+}
+
+#story-section {
+  padding-top: 20vh;
+}
+
+#story-text {
+  text-align: left;
 }
 
 .background1 {
@@ -51,28 +58,22 @@ section {
   color: $darkgreen;
 }
 
-.logo {
-  width: 100px;
-}
-
-.skill-list p {
-  margin: 0 auto;
+.single-project {
+  background-color: $darkgreen;
 }
 
 .section-title {
   font-size: 100px;
-  padding-bottom: 10vh;
-  // margin: 0 auto;
-}
+  margin: 0;
 
-.project-title {
-  font-size: 100px;
-  position: relative;
-  bottom: 10vh;
-}
+  &#story-title {
+    padding-bottom: 10vh;
+  }
 
-.title {
-  font-size: 100px;
+  &#skill-title {
+    padding-bottom: 10vh;
+  }
+
 }
 
 .sub-title {
@@ -80,17 +81,17 @@ section {
   margin-bottom: 10rem;
 }
 
-.skill-title {
+.skill-list-title {
   font-size: 30px;
   text-decoration: underline;
 }
 
 .project-content {
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
-.single-project {
-  background-color: $darkgreen;
+.skill-list p {
+  margin: 0 auto;
 }
 
 .project-description {
@@ -100,6 +101,10 @@ section {
   p {
     padding: 5px 0;
   }
+}
+
+.logo {
+  width: 100px;
 }
 
 .icon {
@@ -118,7 +123,7 @@ p.icon-title {
   margin-bottom: 0;
 }
 
-.button {
+.link-button {
   font-size: 23px;
   padding: 10px;
   border-style: solid;
@@ -141,19 +146,6 @@ p.icon-title {
   }
 }
 
-#header-content {
-  padding-top: 20vh;
-}
-
-#story-content {
-  padding-top: 20vh;
-}
-
-#story-text {
-  text-align: left;
-}
-
-
 @media (max-width: 800px) {
   #header-content {
     padding-top: 0vh;
@@ -164,13 +156,7 @@ p.icon-title {
   header {
     height: 125vh;
   }
-  // section {
-  //   height: 120vh;
-  // }
-  // #project-section {
-  //   height: 230vh;
-  // }
-  #skills {
+  #skill-section {
     height: 131vh;
   }
   .section-title {
