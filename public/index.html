@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no">
         <title>Sean Martin</title>
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/font-awesome.min.css">
@@ -10,14 +12,14 @@
         <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
     </head>
     <body>
-        <header class="blue-background">
+        <header>
             <div id="header-content">
                 <h1 class="title">Sean Martin</h1>
                 <h1 class="sub-title">Software Engineer</h1>
                 <div class="container">
                     <div id="icon-titles" class="row">
                         <div class="col-sm-3">
-                            <p class="icon-title">e-mail</p>
+                            <p class="icon-title">Email</p>
                             <a class="icon" href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                         </div>
                         <div class="col-sm-3">
@@ -37,7 +39,7 @@
             </div>
         </header>
         <main>
-            <section id="story">
+            <section id="story" class="background1">
                 <div id="story-content">
                     <h1 class="section-title">My Story</h1>
                     <div class="container">
@@ -47,10 +49,10 @@
                     </div>
                 </div>
             </section>
-            <section id="skills" class="blue-background">
+            <section id="skills" class="background2">
                 <div class="container-fluid">
                     <div id="skill-content" class="row">
-                        <h1 class="section-title">Skills</h1>
+                        <h1 id="skill-title" class="section-title">Skills</h1>
                         <div id="clientside-skills" class="col-sm-3 skill-list">
                             <h1 class="skill-title">Client Side</h1>
                         </div>
@@ -86,23 +88,23 @@
                     </div>
                 </div>
             </section>
-            <h1 class="section-title">Projects</h1>
-            <section id="project-autolingo">
+            <section id="project-autolingo" class="project background1">
                 <div class="container-fluid">
                     <div class="row project-content">
+                      <h1 class="project-title">Projects</h1>
                         <div class="col-md-6">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="col-md-6">
                             <h1>AutoLingo: Live Translation</h1>
                             <div id="autolingo-text" class="project-description"></div>
-                            <form target="_blank"><button formaction="https://github.com/AutoLingo/autolingo">Github</button></form>
-                            <form target="_blank"><button formaction="https://autolingo.herokuapp.com/">Live App</button></form>
+                            <a class="button" target="_blank" href="https://github.com/AutoLingo/autolingo">GitHub</a>
+                            <a class="button" target="_blank" href="https://autolingo.herokuapp.com">Live App</a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="project-navi" class="blue-background">
+            <section id="project-navi" class="project background2">
                 <div class="container-fluid">
                     <div class="row project-content">
                         <div class="col-md-6">
@@ -111,13 +113,13 @@
                         <div class="col-md-6">
                             <h1>Navi: Dynamic Event Information</h1>
                             <div id="navi-text" class="project-description"></div>
-                            <form target="_blank"><button formaction="https://github.com/Navi-events/navi">Github</button></form>
+                            <a class="button" target="_blank" href="https://github.com/Navi-events/navi">GitHub</a>
                         </div>
 
                     </div>
                 </div>
             </section>
-            <section id="project-techtalk">
+            <section id="project-techtalk" class="project background1">
               <div class="container-fluid">
                   <div class="row project-content">
                       <div class="col-md-6">
