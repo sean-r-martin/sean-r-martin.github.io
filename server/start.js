@@ -27,7 +27,7 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500).send(err.message || 'Internal server error.');
 });
 
-var port = 1337
+var port = process.env.PORT || 1337;
 app.listen(port, function () {
   console.log('The server is listening on port', port);
 });
