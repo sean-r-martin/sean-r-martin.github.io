@@ -1,0 +1,168 @@
+$green: #8d9b3e;
+$lightgreen: #D3DE90;
+$darkgreen: #1D200B;
+$blue: #7893ab;
+$lightblue: #94D3FF;
+$darkblue: #223E52;
+$gray: #676865;
+$lightgray: #B4B6B1;
+$brown: #62480f;
+$darkbrown: #261A00;
+
+html {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+body	{
+  background:url(/img/alpin-river.jpg) top left no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  color: black;
+}
+
+main {
+  width: 100vw;
+}
+
+header {
+  height: 100vh;
+  color: $lightgreen;
+  text-shadow: 3px 3px black;
+}
+
+section {
+  font-size: 20px;
+  height: 100vh;
+}
+
+.background1 {
+  background-color: $darkgreen;
+  color: $lightgreen;
+}
+
+.background2 {
+  background-color: $lightgreen;
+  color: $darkgreen;
+}
+
+.logo {
+  width: 100px;
+}
+
+.skill-list p {
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 100px;
+  padding-bottom: 10vh;
+  // margin: 0 auto;
+}
+
+.project-title {
+  font-size: 100px;
+  position: relative;
+  bottom: 15vh;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.sub-title {
+  font-size: 50px;
+  margin-bottom: 10rem;
+}
+
+.skill-title {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.project-content {
+  margin-top: 20vh;
+}
+
+.project-description {
+  text-align: left;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  p {
+    padding: 5px 0;
+  }
+}
+
+.icon {
+  font-size: 100px;
+  color: $lightblue;
+  &:focus {
+    color: $lightblue;
+  }
+  &:hover {
+    color: $darkblue;
+  }
+}
+
+p.icon-title {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.button {
+  font-size: 23px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: $lightblue;
+  background-color: $darkblue;
+  color: $lightblue;
+  &:visited {
+    text-decoration: none;
+    color: $lightblue;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: none;
+    border-color: $darkblue;
+    background-color: $lightblue;
+    color: $darkblue;
+  }
+}
+
+#header-content {
+  padding-top: 20vh;
+}
+
+#story-content {
+  padding-top: 20vh;
+}
+
+#story-text {
+  text-align: left;
+}
+
+
+@media (max-width: 800px) {
+  #header-content {
+    padding-top: 0vh;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    height: 125vh;
+  }
+  section {
+    height: 120vh;
+  }
+  #skills {
+    height: 130vh;
+  }
+  .section-title {
+    padding: 5vh;
+  }
+}

@@ -2,10 +2,8 @@
 
 (function createSkillList() {
 
-  var divTag1 = document.getElementById('skill-list1');
-  var divTag2 = document.getElementById('skill-list2');
-  // divTag1.className = 'list';
-  // divTag2.className = 'list';
+  var clientTag = document.getElementById('clientside-skills');
+  var serverTag = document.getElementById('serverside-skills');
 
   function createSkill(skill, divTag) {
     var listItem = document.createElement("p");
@@ -14,7 +12,7 @@
     divTag.appendChild(listItem);
   }
 
-  var skillList1 = [
+  var clientSkills = [
     'JavaScript (ES6)',
     'React.js',
     'Redux',
@@ -25,7 +23,7 @@
     'Bootstrap'
   ];
 
-  var skillList2 = [
+  var serverSkills = [
     'Node.js',
     'Express.js',
     'PostgreSQL',
@@ -36,11 +34,11 @@
     'Ruby',
   ];
 
-  skillList1.forEach(function (skill) {
-    createSkill(skill, divTag1);
+  clientSkills.forEach(function (skill) {
+    createSkill(skill, clientTag);
   });
-  skillList2.forEach(function (skill) {
-    createSkill(skill, divTag2);
+  serverSkills.forEach(function (skill) {
+    createSkill(skill, serverTag);
   });
 
 })();

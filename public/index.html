@@ -1,100 +1,142 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sean Martin</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/font-awesome.css">
-    <link rel="icon" href="/img/lightning-bolt.png">
-    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <h1 class="no-margin">Sean Martin</h1>
-      <h4 class="no-margin">Software Engineer</h4>
-    </header>
-    <div class="icon">
-      <a href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-      <a href="https://github.com/sean-r-martin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="/docs/sean-martin-resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/sean-r-martin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-      <a href="http://stackoverflow.com/users/7612576/s-martin"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-    </div>
-    <main>
-      <section id="story">
-        <h1>My Story</h1>
-        <div id="story-text" class="section-description"></div>
-      </section>
-      <section id="skills">
-        <h1>Skills</h1>
-        <div id="skill-container group">
-          <div class="box">
-            <div id="skill-list1" class="skill-list"></div>
-          </div>
-          <div class="box">
-            <div class="line">
-              <img src="/logos/javascript-logo.png" alt="JavaScript Logo" class="logo">
-              <img src="/logos/react-logo.png" alt="React Logo" class="logo">
-              <img src="/logos/nodejs-logo.png" alt="Node Logo" class="logo">
-              <img src="/logos/express-logo.png" alt="Express Logo" class="logo">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no">
+        <title>Sean Martin</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" href="/img/lightning-bolt.png">
+        <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="header-content">
+                <h1 class="title">Sean Martin</h1>
+                <h1 class="sub-title">Software Engineer</h1>
+                <div class="container">
+                    <div id="icon-titles" class="row">
+                        <div class="col-sm-3">
+                            <p class="icon-title">Email</p>
+                            <a class="icon" href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="icon-title">Resume</p>
+                            <a class="icon" href="/docs/sean-martin-resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="icon-title">LinkedIn</p>
+                            <a class="icon" href="https://www.linkedin.com/in/sean-r-martin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-sm-3">
+                            <p class="icon-title">GitHub</p>
+                            <a class="icon" href="https://github.com/sean-r-martin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="line">
-              <img src="/logos/redux-logo.png" alt="Redux Logo" class="logo">
-              <img src="/logos/html5-logo.png" alt="HTML5 Logo" class="logo">
-              <img src="/logos/postgresql-logo.png" alt="PostgreSQL Logo" class="logo">
-              <img src="/logos/sequelize-logo.png" alt="Sequelize Logo" class="logo">
-            </div>
-            <div class="line">
-              <img src="/logos/css3-logo.png" alt="CSS3 Logo" class="logo">
-              <img src="/logos/ajax-logo.png" alt="AJAX Logo" class="logo">
-              <img src="/logos/mocha-logo.png" alt="Mocha Logo" class="logo">
-              <img src="/logos/chai-logo.png" alt="Chai Logo" class="logo">
-            </div>
-            <div class="line">
-              <img src="/logos/bootstrap-logo.png" alt="Bootstrap Logo" class="logo">
-              <img src="/logos/jquery-logo.gif" alt="jQuery Logo" class="logo">
-              <img src="/logos/git-logo.png" alt="Git Logo" class="logo">
-              <img src="/logos/ruby-logo.png" alt="Ruby Logo" class="logo">
-            </div>
-          </div>
-          <div class="box">
-            <div id="skill-list2" class="skill-list"></div>
-          </div>
-        </div>
-      </section>
-      <h1>Projects</h1>
-      <section id="project-autolingo" class="group blue-background">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
-        <div class="section-description">
-          <h1>AutoLingo: Live Translation</h1>
-          <div id="autolingo-text"></div>
-          <form target="_blank"><button formaction="https://github.com/AutoLingo/autolingo">Github</button></form>
-          <form target="_blank"><button formaction="https://autolingo.herokuapp.com/">Live App</button></form>
-        </div>
-      </section>
-      <section id="project-navi" class="group">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Dj4cRARYuhQ" frameborder="0" allowfullscreen></iframe>
-        <div class="section-description">
-          <h1>Navi: Dynamic Event Information</h1>
-          <div id="navi-text"></div>
-          <form target="_blank"><button formaction="https://github.com/Navi-events/navi">Github</button></form>
-        </div>
-      </section>
-      <section id="project-techtalk" class="group blue-background">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/YWM6mdUS7Kg" frameborder="0" allowfullscreen></iframe>
-        <div class="section-description">
-          <h1>Tech Talk: ES6 Maps, Sets & Symbols</h1>
-          <div id="techtalk-text"></div>
-        </div>
-      </section>
-    </main>
-    <footer>
+        </header>
+        <main>
+            <section id="story" class="background1">
+                <div id="story-content">
+                    <h1 class="section-title">My Story</h1>
+                    <div class="container">
+                        <div class="col-sm-12">
+                            <div id="story-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="background2">
+                <div class="container-fluid">
+                    <div id="skill-content" class="row">
+                        <h1 id="skill-title" class="section-title">Skills</h1>
+                        <div id="clientside-skills" class="col-sm-3 skill-list">
+                            <h1 class="skill-title">Client Side</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <img src="/logos/javascript-logo.png" alt="JavaScript Logo" class="logo">
+                                <img src="/logos/react-logo.png" alt="React Logo" class="logo">
+                                <img src="/logos/nodejs-logo.png" alt="Node Logo" class="logo">
+                                <img src="/logos/express-logo.png" alt="Express Logo" class="logo">
+                            </div>
+                            <div class="row">
+                                <img src="/logos/redux-logo.png" alt="Redux Logo" class="logo">
+                                <img src="/logos/html5-logo.png" alt="HTML5 Logo" class="logo">
+                                <img src="/logos/postgresql-logo.png" alt="PostgreSQL Logo" class="logo">
+                                <img src="/logos/sequelize-logo.png" alt="Sequelize Logo" class="logo">
+                            </div>
+                            <div class="row">
+                                <img src="/logos/css3-logo.png" alt="CSS3 Logo" class="logo">
+                                <img src="/logos/ajax-logo.png" alt="AJAX Logo" class="logo">
+                                <img src="/logos/mocha-logo.png" alt="Mocha Logo" class="logo">
+                                <img src="/logos/chai-logo.png" alt="Chai Logo" class="logo">
+                            </div>
+                            <div class="row">
+                                <img src="/logos/bootstrap-logo.png" alt="Bootstrap Logo" class="logo">
+                                <img src="/logos/jquery-logo.gif" alt="jQuery Logo" class="logo">
+                                <img src="/logos/git-logo.png" alt="Git Logo" class="logo">
+                                <img src="/logos/ruby-logo.png" alt="Ruby Logo" class="logo">
+                            </div>
+                        </div>
+                        <div id="serverside-skills" class="col-sm-3 skill-list">
+                            <h1 class="skill-title">Sever Side</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="project-autolingo" class="project background1">
+                <div class="container-fluid">
+                    <div class="row project-content">
+                      <h1 class="project-title">Projects</h1>
+                        <div class="col-md-6">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>AutoLingo: Live Translation</h1>
+                            <div id="autolingo-text" class="project-description"></div>
+                            <a class="button" target="_blank" href="https://github.com/AutoLingo/autolingo">GitHub</a>
+                            <a class="button" target="_blank" href="https://autolingo.herokuapp.com">Live App</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="project-navi" class="project background2">
+                <div class="container-fluid">
+                    <div class="row project-content">
+                        <div class="col-md-6">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dj4cRARYuhQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Navi: Dynamic Event Information</h1>
+                            <div id="navi-text" class="project-description"></div>
+                            <a class="button" target="_blank" href="https://github.com/Navi-events/navi">GitHub</a>
+                        </div>
 
-    </footer>
-    <script src="/js/story.js"></script>
-    <script src="/js/skills.js"></script>
-    <script src="/js/projectAutoLingo.js"></script>
-    <script src="/js/projectNavi.js"></script>
-    <script src="/js/projectTechTalk.js"></script>
-  </body>
+                    </div>
+                </div>
+            </section>
+            <section id="project-techtalk" class="project background1">
+              <div class="container-fluid">
+                  <div class="row project-content">
+                      <div class="col-md-6">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/YWM6mdUS7Kg" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                      <div class="col-md-6">
+                          <h1>Tech Talk: ES6 Maps, Sets & Symbols</h1>
+                          <div id="techtalk-text" class="project-description"></div>
+                      </div>
+                  </div>
+              </div>
+            </section>
+        </main>
+        <script src="/js/story.js"></script>
+        <script src="/js/skills.js"></script>
+        <script src="/js/projectAutoLingo.js"></script>
+        <script src="/js/projectNavi.js"></script>
+        <script src="/js/projectTechTalk.js"></script>
+    </body>
 </html>
