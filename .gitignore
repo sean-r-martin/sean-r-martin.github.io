@@ -3,6 +3,3 @@ node_modules/*
 
 # NPM errors
 npm-debug.log
-
-# Compiled CSS
-public/css/style.css

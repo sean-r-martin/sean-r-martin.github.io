@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Hind Vadodara', sans-serif; }
+
+body {
+  background: url(/img/alpin-river.jpg) top left no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+header {
+  height: 100vh;
+  color: #D3DE90;
+  text-shadow: 3px 3px black; }
+
+section {
+  font-size: 20px;
+  height: 100vh; }
+
+#header-content {
+  padding-top: 20vh; }
+
+#project-section {
+  height: 150vh; }
+
+#story-section {
+  padding-top: 20vh; }
+
+#story-text {
+  text-align: left; }
+
+.background1 {
+  background-color: #1D200B;
+  color: #D3DE90; }
+
+.background2 {
+  background-color: #D3DE90;
+  color: #1D200B; }
+
+.single-project {
+  background-color: #1D200B; }
+
+.section-title {
+  font-size: 100px;
+  margin: 0; }
+  .section-title#story-title {
+    padding-bottom: 10vh; }
+  .section-title#skill-title {
+    padding-bottom: 10vh; }
+
+.sub-title {
+  font-size: 50px;
+  margin-bottom: 10rem; }
+
+.skill-list-title {
+  font-size: 30px;
+  text-decoration: underline; }
+
+.project-content {
+  margin-top: 15vh; }
+
+.skill-list p {
+  margin: 0 auto; }
+
+.project-description {
+  text-align: left;
+  padding-left: 10vh;
+  padding-right: 10vh; }
+  .project-description p {
+    padding: 5px 0; }
+
+.logo {
+  width: 100px; }
+
+.icon {
+  font-size: 100px;
+  color: #94D3FF; }
+  .icon:focus {
+    color: #94D3FF; }
+  .icon:hover {
+    color: #223E52; }
+
+p.icon-title {
+  font-size: 30px;
+  margin-bottom: 0; }
+
+.link-button {
+  font-size: 23px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #94D3FF;
+  background-color: #223E52;
+  color: #94D3FF; }
+  .link-button:visited {
+    text-decoration: none;
+    color: #94D3FF; }
+  .link-button:focus {
+    text-decoration: none; }
+  .link-button:hover {
+    text-decoration: none;
+    border-color: #223E52;
+    background-color: #94D3FF;
+    color: #223E52; }
+
+@media (max-width: 800px) {
+  #header-content {
+    padding-top: 0vh; } }
+
+@media (max-width: 1000px) {
+  header {
+    height: 125vh; }
+  #skill-section {
+    height: 131vh; }
+  .section-title {
+    padding: 5vh; } }
