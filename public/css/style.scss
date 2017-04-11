@@ -11,7 +11,7 @@ $darkbrown: #261A00;
 
 html {
   box-sizing: border-box;
-  text-align: center;
+  // text-align: center;
   font-family: 'Hind Vadodara', sans-serif;
 }
 
@@ -32,21 +32,21 @@ section {
   height: 100vh;
 }
 
-#header-content {
-  padding-top: 20vh;
-}
-
-#project-section {
-  height: 150vh;
-}
-
-#story-section {
-  padding-top: 20vh;
-}
-
-#story-text {
-  text-align: left;
-}
+// #header-content {
+//   padding-top: 20vh;
+// }
+//
+// #project-section {
+//   height: 150vh;
+// }
+//
+// #story-section {
+//   padding-top: 20vh;
+// }
+//
+// #story-text {
+//   text-align: left;
+// }
 
 .background1 {
   background-color: $darkgreen;
@@ -58,50 +58,52 @@ section {
   color: $darkgreen;
 }
 
-.single-project {
-  background-color: $darkgreen;
-}
+// .single-project {
+//   background-color: $darkgreen;
+// }
 
 .section-title {
+  text-align: center;
   font-size: 100px;
-  margin: 0;
+  // margin: 0;
 
   &#story-title {
-    padding-bottom: 10vh;
+    // padding-bottom: 10vh;
   }
 
   &#skill-title {
-    padding-bottom: 10vh;
+    // padding-bottom: 10vh;
   }
 
 }
 
 .sub-title {
   font-size: 50px;
-  margin-bottom: 10rem;
+  text-align: center;
+  // margin-bottom: 10rem;
 }
 
-.skill-list-title {
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-.project-content {
-  margin-top: 15vh;
-}
-
-.skill-list p {
-  margin: 0 auto;
-}
-
-.project-description {
-  text-align: left;
-  padding-left: 10vh;
-  padding-right: 10vh;
-  p {
-    padding: 5px 0;
-  }
-}
+// .skill-list-title {
+//   font-size: 30px;
+//   text-decoration: underline;
+// }
+//
+// .project-content {
+//   margin-top: 15vh;
+// }
+//
+// .skill-list p {
+//   margin: 0 auto;
+// }
+//
+// .project-description {
+//   text-align: left;
+//   padding-left: 10vh;
+//   padding-right: 10vh;
+//   p {
+//     padding: 5px 0;
+//   }
+// }
 
 .logo {
   width: 100px;
@@ -118,8 +120,13 @@ section {
   }
 }
 
+.icon-section {
+  text-align: center;
+}
+
 p.icon-title {
   font-size: 30px;
+  text-align: center;
   margin-bottom: 0;
 }
 
@@ -146,20 +153,20 @@ p.icon-title {
   }
 }
 
-@media (max-width: 800px) {
-  #header-content {
-    padding-top: 0vh;
-  }
-}
-
-@media (max-width: 1000px) {
-  header {
-    height: 125vh;
-  }
-  #skill-section {
-    height: 131vh;
-  }
-  .section-title {
-    padding: 5vh;
-  }
-}
+// @media (max-width: 800px) {
+//   #header-content {
+//     padding-top: 0vh;
+//   }
+// }
+//
+// @media (max-width: 1000px) {
+//   header {
+//     height: 125vh;
+//   }
+//   #skill-section {
+//     height: 131vh;
+//   }
+//   .section-title {
+//     padding: 5vh;
+//   }
+// }
