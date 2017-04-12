@@ -11,50 +11,53 @@
     </head>
     <body>
         <header>
-            <div id="header-content">
+            <div class="container">
                 <h1 class="section-title">Sean Martin</h1>
-                <h1 class="sub-title">Software Engineer</h1>
-                <div class="container">
-                  <div id="icon-titles" class="row">
-                    <div class="col-sm-3">
-                      <p class="icon-title">Email</p>
-                      <a class="icon" href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <h1>Software Engineer</h1>
+                <div id="icons" class="row">
+                    <div class="col-xs-6 col-sm-3">
+                        <p class="icon-title">Email</p>
+                        <a class="icon" href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-sm-3">
-                      <p class="icon-title">Resume</p>
-                      <a class="icon" href="/docs/sean-martin-resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                    <div class="col-xs-6 col-sm-3">
+                        <p class="icon-title">Resume</p>
+                        <a class="icon" href="/docs/sean-martin-resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-sm-3">
-                      <p class="icon-title">LinkedIn</p>
-                      <a class="icon" href="https://www.linkedin.com/in/sean-r-martin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <div class="col-xs-6 col-sm-3">
+                        <p class="icon-title">LinkedIn</p>
+                        <a class="icon" href="https://www.linkedin.com/in/sean-r-martin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
-                    <div class="col-sm-3">
-                      <p class="icon-title">GitHub</p>
-                      <a class="icon" href="https://github.com/sean-r-martin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <div class="col-xs-6 col-sm-3">
+                        <p class="icon-title">GitHub</p>
+                        <a class="icon" href="https://github.com/sean-r-martin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </div>
-                  </div>
                 </div>
             </div>
         </header>
         <main>
-            <section id="story-section" class="background1">
-                <div>
-                    <h1 id="story-title" class="section-title">My Story</h1>
-                    <div class="container">
+            <section class="site-section background1">
+                <div class="container">
+                    <div class="row">
+                        <h1 id="story-title" class="section-title">My Story</h1>
                         <div class="col-sm-12">
                             <div id="story-text"></div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="skill-section" class="background2">
-                <div class="container-fluid">
-                    <div id="skill-content" class="row">
-                        <h1 id="skill-title" class="section-title">Skills</h1>
-                        <div id="clientside-skills" class="col-sm-3 skill-list">
-                            <h1 class="skill-list-title">Client Side</h1>
+            <section id="skill-section" class="site-section background2">
+                <div>
+                    <h1 id="skill-title" class="section-title">Skills</h1>
+                    <div class="container">
+                        <div class="skill-list col-xs-12 col-md-6">
+                            <div id="clientside-skills">
+                                <h1 class="skill-list-title">Client Side</h1>
+                            </div>
+                            <div id="serverside-skills">
+                                <h1 class="skill-list-title">Sever Side</h1>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-xs-12 col-md-6">
                             <div class="row">
                                 <img src="/logos/javascript-logo.png" alt="JavaScript Logo" class="logo">
                                 <img src="/logos/react-logo.png" alt="React Logo" class="logo">
@@ -80,51 +83,35 @@
                                 <img src="/logos/ruby-logo.png" alt="Ruby Logo" class="logo">
                             </div>
                         </div>
-                        <div id="serverside-skills" class="col-sm-3 skill-list">
-                            <h1 class="skill-list-title">Sever Side</h1>
-                        </div>
                     </div>
                 </div>
             </section>
-            <section id="project-section" class="project background1">
-              <h1 class="section-title">Projects</h1>
-                <div class="container-fluid single-project">
-                    <div class="row project-content">
-                        <div class="col-md-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <h1>AutoLingo: Live Translation</h1>
-                            <div id="autolingo-text" class="project-description"></div>
-                            <a class="link-button" target="_blank" href="https://github.com/AutoLingo/autolingo">GitHub</a>
-                            <a class="link-button" target="_blank" href="https://autolingo.herokuapp.com">Live App</a>
-                        </div>
+            <section class="background1">
+                <h1 class="section-title">Projects</h1>
+                <div class="single-project">
+                    <iframe class="video" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
+                    <div class="project-text">
+                        <h1>AutoLingo: Live Translation</h1>
+                        <div id="autolingo-text" class="project-description"></div>
+                        <a class="link-button" target="_blank" href="https://github.com/AutoLingo/autolingo">GitHub</a>
+                        <a class="link-button" target="_blank" href="https://autolingo.herokuapp.com">Live App</a>
                     </div>
                 </div>
-                <div class="container-fluid single-project">
-                    <div class="row project-content">
-                        <div class="col-md-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dj4cRARYuhQ" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <h1>Navi: Dynamic Event Information</h1>
-                            <div id="navi-text" class="project-description"></div>
-                            <a class="link-button" target="_blank" href="https://github.com/Navi-events/navi">GitHub</a>
-                        </div>
-
+                <div class="single-project">
+                    <iframe class="video" src="https://www.youtube.com/embed/Dj4cRARYuhQ" frameborder="0" allowfullscreen></iframe>
+                    <div class="project-text">
+                        <h1>Navi: Dynamic Event Information</h1>
+                        <div id="navi-text" class="project-description"></div>
+                        <a class="link-button" target="_blank" href="https://github.com/Navi-events/navi">GitHub</a>
                     </div>
                 </div>
-              <div class="container-fluid single-project">
-                  <div class="row project-content">
-                      <div class="col-md-6">
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/YWM6mdUS7Kg" frameborder="0" allowfullscreen></iframe>
-                      </div>
-                      <div class="col-md-6">
-                          <h1>Tech Talk: ES6 Maps, Sets & Symbols</h1>
-                          <div id="techtalk-text" class="project-description"></div>
-                      </div>
-                  </div>
-              </div>
+                <div class="single-project">
+                    <iframe class="video" src="https://www.youtube.com/embed/YWM6mdUS7Kg" frameborder="0" allowfullscreen></iframe>
+                    <div class="project-text">
+                        <h1>Tech Talk: ES6 Maps, Sets & Symbols</h1>
+                        <div id="techtalk-text" class="project-description"></div>
+                    </div>
+                </div>
             </section>
         </main>
         <script src="/js/story.js"></script>

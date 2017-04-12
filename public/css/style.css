@@ -6,28 +6,21 @@ html {
 body {
   background: url(/img/alpin-river.jpg) top left no-repeat;
   background-size: cover;
-  background-attachment: fixed; }
-
-header {
-  height: 100vh;
-  color: #D3DE90;
-  text-shadow: 3px 3px black; }
-
-section {
-  font-size: 20px;
+  background-attachment: fixed;
   height: 100vh; }
 
-#header-content {
-  padding-top: 20vh; }
+header {
+  min-height: 100vh;
+  color: #D3DE90;
+  text-shadow: 3px 3px black;
+  display: flex;
+  align-items: center; }
 
-#project-section {
-  height: 150vh; }
-
-#story-section {
-  padding-top: 20vh; }
-
-#story-text {
-  text-align: left; }
+.site-section {
+  font-size: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
 
 .background1 {
   background-color: #1D200B;
@@ -37,40 +30,65 @@ section {
   background-color: #D3DE90;
   color: #1D200B; }
 
-.single-project {
-  background-color: #1D200B; }
-
 .section-title {
   font-size: 100px;
   margin: 0; }
   .section-title#story-title {
     padding-bottom: 10vh; }
   .section-title#skill-title {
-    padding-bottom: 10vh; }
+    padding-bottom: 2vh; }
 
-.sub-title {
-  font-size: 50px;
-  margin-bottom: 10rem; }
+#story-text {
+  text-align: left; }
+  #story-text p {
+    margin-bottom: 20px; }
 
 .skill-list-title {
   font-size: 30px;
   text-decoration: underline; }
 
-.project-content {
-  margin-top: 15vh; }
+#clientside-skills {
+  margin-right: 50px; }
 
-.skill-list p {
-  margin: 0 auto; }
+.skill-list {
+  display: flex;
+  justify-content: center; }
+
+#skill-section {
+  display: flex;
+  justify-content: center; }
+
+.single-project {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.project-text {
+  flex-basis: 50%;
+  flex-grow: 1;
+  min-width: 300px;
+  font-size: 20px; }
+
+.video {
+  flex-basis: 560px;
+  height: 315px; }
 
 .project-description {
   text-align: left;
-  padding-left: 10vh;
-  padding-right: 10vh; }
+  padding-left: 6vh;
+  padding-right: 2vh; }
   .project-description p {
-    padding: 5px 0; }
+    margin-bottom: 20px; }
 
 .logo {
-  width: 100px; }
+  width: 100px;
+  margin-bottom: 10px; }
+
+#icons {
+  margin-top: 40px; }
 
 .icon {
   font-size: 100px;
@@ -80,9 +98,8 @@ section {
   .icon:hover {
     color: #223E52; }
 
-p.icon-title {
-  font-size: 30px;
-  margin-bottom: 0; }
+.icon-title {
+  font-size: 30px; }
 
 .link-button {
   font-size: 23px;
@@ -102,15 +119,3 @@ p.icon-title {
     border-color: #223E52;
     background-color: #94D3FF;
     color: #223E52; }
-
-@media (max-width: 800px) {
-  #header-content {
-    padding-top: 0vh; } }
-
-@media (max-width: 1000px) {
-  header {
-    height: 125vh; }
-  #skill-section {
-    height: 131vh; }
-  .section-title {
-    padding: 5vh; } }
