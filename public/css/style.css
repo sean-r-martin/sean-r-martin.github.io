@@ -22,9 +22,6 @@ header {
   display: flex;
   align-items: center; }
 
-#story-text {
-  text-align: left; }
-
 .background1 {
   background-color: #1D200B;
   color: #D3DE90; }
@@ -33,27 +30,6 @@ header {
   background-color: #D3DE90;
   color: #1D200B; }
 
-.single-project {
-  padding-top: 8vh;
-  padding-bottom: 5vh;
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.video {
-  flex-basis: 560px;
-  height: 315px; }
-
-.project-text {
-  flex-basis: 50%;
-  flex-grow: 1;
-  min-width: 300px;
-  font-size: 20px; }
-
-p {
-  margin-bottom: 20px; }
-
 .section-title {
   font-size: 100px;
   margin: 0; }
@@ -61,6 +37,11 @@ p {
     padding-bottom: 10vh; }
   .section-title#skill-title {
     padding-bottom: 2vh; }
+
+#story-text {
+  text-align: left; }
+  #story-text p {
+    margin-bottom: 20px; }
 
 .skill-list-title {
   font-size: 30px;
@@ -77,13 +58,37 @@ p {
   display: flex;
   justify-content: center; }
 
+.single-project {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.project-text {
+  flex-basis: 50%;
+  flex-grow: 1;
+  min-width: 300px;
+  font-size: 20px; }
+
+.video {
+  flex-basis: 560px;
+  height: 315px; }
+
 .project-description {
   text-align: left;
   padding-left: 6vh;
   padding-right: 2vh; }
+  .project-description p {
+    margin-bottom: 20px; }
 
 .logo {
-  width: 100px; }
+  width: 100px;
+  margin-bottom: 10px; }
+
+#icons {
+  margin-top: 40px; }
 
 .icon {
   font-size: 100px;
@@ -93,7 +98,7 @@ p {
   .icon:hover {
     color: #223E52; }
 
-p.icon-title {
+.icon-title {
   font-size: 30px; }
 
 .link-button {
