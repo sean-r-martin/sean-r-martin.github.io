@@ -19,6 +19,7 @@ body	{
   background:url(/img/alpin-river.jpg) top left no-repeat;
   background-size: cover;
   background-attachment:fixed;
+  height: 100vh;
 }
 
 header {
@@ -29,12 +30,11 @@ header {
   align-items: center;
 }
 
-section {
+.site-section {
   font-size: 20px;
   min-height: 100vh;
   display: flex;
   align-items: center;
-
 }
 
 #header-content {
@@ -43,7 +43,7 @@ section {
 }
 
 #project-section {
-  height: 175vh;
+  // min-height: 175vh;
 }
 
 #story-section {
@@ -68,14 +68,33 @@ section {
 
 .single-project {
   // background-color: $darkgreen;
-  // padding-top: 5vh;
-  height: 60vh;
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  // height: 60vh;
 }
 
 .video {
-  width: 560px;
+  flex-basis: 560px;
+  // width: 560px;
   height: 315px;
+  // flex-shrink: 0;
 }
+
+.project-text {
+  flex-basis: 50%;
+  flex-grow: 1;
+  min-width: 300px;
+  font-size: 20px;
+
+}
+p {
+  margin-bottom: 20px;
+}
+
 
 .section-title {
   font-size: 100px;
@@ -92,9 +111,10 @@ section {
 
 }
 
-#project-title {
-  height: 60vh;
-}
+// #project-title {
+//   height: 60vh;
+//   flex: none;
+// }
 // .sub-title {
 //   font-size: 50px;
 //   margin-bottom: 10rem;
@@ -127,6 +147,7 @@ section {
 .project-description {
   text-align: left;
   padding-left: 6vh;
+  padding-right: 2vh;
   // padding-right: 10vh;
   // p {
   //   padding: 5px 0;
@@ -176,11 +197,11 @@ p.icon-title {
   }
 }
 
-@media (max-width: 600px) {
-  #project-section {
-    height: 200vh;
-  }
-}
+// @media (max-width: 600px) {
+  // #project-section {
+  //   height: 200vh;
+  // }
+// }
 
 // @media (max-width: 800px) {
 //   #header-content {

@@ -6,7 +6,8 @@ html {
 body {
   background: url(/img/alpin-river.jpg) top left no-repeat;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  height: 100vh; }
 
 header {
   min-height: 100vh;
@@ -15,14 +16,11 @@ header {
   display: flex;
   align-items: center; }
 
-section {
+.site-section {
   font-size: 20px;
   min-height: 100vh;
   display: flex;
   align-items: center; }
-
-#project-section {
-  height: 175vh; }
 
 #story-text {
   text-align: left; }
@@ -36,11 +34,25 @@ section {
   color: #1D200B; }
 
 .single-project {
-  height: 60vh; }
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .video {
-  width: 560px;
+  flex-basis: 560px;
   height: 315px; }
+
+.project-text {
+  flex-basis: 50%;
+  flex-grow: 1;
+  min-width: 300px;
+  font-size: 20px; }
+
+p {
+  margin-bottom: 20px; }
 
 .section-title {
   font-size: 100px;
@@ -49,9 +61,6 @@ section {
     padding-bottom: 10vh; }
   .section-title#skill-title {
     padding-bottom: 2vh; }
-
-#project-title {
-  height: 60vh; }
 
 .skill-list-title {
   font-size: 30px;
@@ -70,7 +79,8 @@ section {
 
 .project-description {
   text-align: left;
-  padding-left: 6vh; }
+  padding-left: 6vh;
+  padding-right: 2vh; }
 
 .logo {
   width: 100px; }
@@ -104,7 +114,3 @@ p.icon-title {
     border-color: #223E52;
     background-color: #94D3FF;
     color: #223E52; }
-
-@media (max-width: 600px) {
-  #project-section {
-    height: 200vh; } }
