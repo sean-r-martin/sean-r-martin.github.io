@@ -42,9 +42,9 @@ section {
     // height: 60vh;
 }
 
-// #project-section {
-//   height: 150vh;
-// }
+#project-section {
+  height: 175vh;
+}
 
 #story-section {
   // padding-top: 20vh;
@@ -52,9 +52,9 @@ section {
   // align-items: center;
 }
 
-// #story-text {
-//   text-align: left;
-// }
+#story-text {
+  text-align: left;
+}
 
 .background1 {
   background-color: $darkgreen;
@@ -66,9 +66,16 @@ section {
   color: $darkgreen;
 }
 
-// .single-project {
-//   background-color: $darkgreen;
-// }
+.single-project {
+  // background-color: $darkgreen;
+  // padding-top: 5vh;
+  height: 60vh;
+}
+
+.video {
+  width: 560px;
+  height: 315px;
+}
 
 .section-title {
   font-size: 100px;
@@ -79,37 +86,52 @@ section {
   }
 
   &#skill-title {
-    padding-bottom: 10vh;
+    padding-bottom: 2vh;
   }
+
 
 }
 
+#project-title {
+  height: 60vh;
+}
 // .sub-title {
 //   font-size: 50px;
 //   margin-bottom: 10rem;
 // }
-//
-// .skill-list-title {
-//   font-size: 30px;
-//   text-decoration: underline;
-// }
-//
+
+.skill-list-title {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#clientside-skills {
+  margin-right: 50px;
+}
+
 // .project-content {
 //   margin-top: 15vh;
 // }
-//
-// .skill-list p {
-//   margin: 0 auto;
-// }
-//
-// .project-description {
-//   text-align: left;
-//   padding-left: 10vh;
-//   padding-right: 10vh;
-//   p {
-//     padding: 5px 0;
-//   }
-// }
+
+.skill-list {
+  // margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#skill-section {
+  display: flex;
+  justify-content: center;
+}
+
+.project-description {
+  text-align: left;
+  padding-left: 6vh;
+  // padding-right: 10vh;
+  // p {
+  //   padding: 5px 0;
+  // }
+}
 
 .logo {
   width: 100px;
@@ -151,6 +173,12 @@ p.icon-title {
     border-color: $darkblue;
     background-color: $lightblue;
     color: $darkblue;
+  }
+}
+
+@media (max-width: 600px) {
+  #project-section {
+    height: 200vh;
   }
 }
 
