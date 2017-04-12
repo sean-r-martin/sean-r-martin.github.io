@@ -9,7 +9,7 @@ body {
   background-attachment: fixed; }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: #D3DE90;
   text-shadow: 3px 3px black;
   display: flex;
@@ -17,7 +17,7 @@ header {
 
 section {
   font-size: 20px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center; }
 
