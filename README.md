@@ -1,4 +1,4 @@
-# Portfolio Website
+# Personal Website
 
 #### Purpose:
-* This website is to display my portfolio of coding projects.
+* This is my personal website to share information about myself and display my portfolio of coding projects.
