@@ -11,23 +11,15 @@ body {
 header {
   height: 100vh;
   color: #D3DE90;
-  text-shadow: 3px 3px black; }
+  text-shadow: 3px 3px black;
+  display: flex;
+  align-items: center; }
 
 section {
   font-size: 20px;
-  height: 100vh; }
-
-#header-content {
-  padding-top: 20vh; }
-
-#project-section {
-  height: 150vh; }
-
-#story-section {
-  padding-top: 20vh; }
-
-#story-text {
-  text-align: left; }
+  height: 100vh;
+  display: flex;
+  align-items: center; }
 
 .background1 {
   background-color: #1D200B;
@@ -37,9 +29,6 @@ section {
   background-color: #D3DE90;
   color: #1D200B; }
 
-.single-project {
-  background-color: #1D200B; }
-
 .section-title {
   font-size: 100px;
   margin: 0; }
@@ -47,27 +36,6 @@ section {
     padding-bottom: 10vh; }
   .section-title#skill-title {
     padding-bottom: 10vh; }
-
-.sub-title {
-  font-size: 50px;
-  margin-bottom: 10rem; }
-
-.skill-list-title {
-  font-size: 30px;
-  text-decoration: underline; }
-
-.project-content {
-  margin-top: 15vh; }
-
-.skill-list p {
-  margin: 0 auto; }
-
-.project-description {
-  text-align: left;
-  padding-left: 10vh;
-  padding-right: 10vh; }
-  .project-description p {
-    padding: 5px 0; }
 
 .logo {
   width: 100px; }
@@ -81,8 +49,7 @@ section {
     color: #223E52; }
 
 p.icon-title {
-  font-size: 30px;
-  margin-bottom: 0; }
+  font-size: 30px; }
 
 .link-button {
   font-size: 23px;
@@ -102,15 +69,3 @@ p.icon-title {
     border-color: #223E52;
     background-color: #94D3FF;
     color: #223E52; }
-
-@media (max-width: 800px) {
-  #header-content {
-    padding-top: 0vh; } }
-
-@media (max-width: 1000px) {
-  header {
-    height: 125vh; }
-  #skill-section {
-    height: 131vh; }
-  .section-title {
-    padding: 5vh; } }
