@@ -4,14 +4,14 @@ html {
   font-family: 'Hind Vadodara', sans-serif; }
 
 body {
-  background: url(/img/alpin-river.jpg) top left no-repeat;
+  background: url(/img/planets-and-mountain-range.jpg) top left no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
 
 header {
   min-height: 100vh;
-  color: #D3DE90;
+  color: #c5dce7;
   text-shadow: 3px 3px black;
   display: flex;
   align-items: center; }
@@ -23,12 +23,12 @@ header {
   align-items: center; }
 
 .background1 {
-  background-color: #1D200B;
-  color: #D3DE90; }
+  background-color: #c5dce7;
+  color: #0b1a39; }
 
 .background2 {
-  background-color: #D3DE90;
-  color: #1D200B; }
+  background-color: #0b1a39;
+  color: #c5dce7; }
 
 .section-title {
   font-size: 100px;
@@ -93,11 +93,11 @@ header {
 
 .icon {
   font-size: 100px;
-  color: #94D3FF; }
+  color: #c5dce7; }
   .icon:focus {
-    color: #94D3FF; }
+    color: #c5dce7; }
   .icon:hover {
-    color: #223E52; }
+    color: #0b1a39; }
 
 .icon-title {
   font-size: 30px; }
@@ -107,16 +107,15 @@ header {
   padding: 10px;
   border-style: solid;
   border-radius: 25px;
-  border-color: #94D3FF;
-  background-color: #223E52;
-  color: #94D3FF; }
+  border-color: #0b1a39;
+  background-color: #c5dce7;
+  color: #0b1a39; }
   .link-button:visited {
     text-decoration: none;
-    color: #94D3FF; }
+    color: #0b1a39; }
   .link-button:focus {
     text-decoration: none; }
   .link-button:hover {
     text-decoration: none;
-    border-color: #223E52;
-    background-color: #94D3FF;
-    color: #223E52; }
+    background-color: #0b1a39;
+    color: #c5dce7; }
