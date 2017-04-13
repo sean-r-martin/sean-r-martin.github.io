@@ -1,13 +1,5 @@
-$green: #8d9b3e;
-$lightgreen: #D3DE90;
-$darkgreen: #1D200B;
-$blue: #7893ab;
-$lightblue: #94D3FF;
-$darkblue: #223E52;
-$gray: #676865;
-$lightgray: #B4B6B1;
-$brown: #62480f;
-$darkbrown: #261A00;
+$lightblue: #c5dce7;
+$darkblue: #0b1a39;
 
 html {
   box-sizing: border-box;
@@ -16,7 +8,7 @@ html {
 }
 
 body	{
-  background:url(/img/alpin-river.jpg) top left no-repeat;
+  background:url(/img/planets-and-mountain-range.jpg) top left no-repeat;
   background-size: cover;
   background-attachment:fixed;
   height: 100vh;
@@ -24,7 +16,7 @@ body	{
 
 header {
   min-height: 100vh;
-  color: $lightgreen;
+  color: $lightblue;
   text-shadow: 3px 3px black;
   display: flex;
   align-items: center;
@@ -38,13 +30,13 @@ header {
 }
 
 .background1 {
-  background-color: $darkgreen;
-  color: $lightgreen;
+  background-color: $lightblue;
+  color: $darkblue;
 }
 
 .background2 {
-  background-color: $lightgreen;
-  color: $darkgreen;
+  background-color: $darkblue;
+  color: $lightblue;
 }
 
 .section-title {
@@ -147,20 +139,19 @@ header {
   padding: 10px;
   border-style: solid;
   border-radius: 25px;
-  border-color: $lightblue;
-  background-color: $darkblue;
-  color: $lightblue;
+  border-color: $darkblue;
+  background-color: $lightblue;
+  color: $darkblue;
   &:visited {
     text-decoration: none;
-    color: $lightblue;
+    color: $darkblue;
   }
   &:focus {
     text-decoration: none;
   }
   &:hover {
     text-decoration: none;
-    border-color: $darkblue;
-    background-color: $lightblue;
-    color: $darkblue;
+    background-color: $darkblue;
+    color: $lightblue;
   }
 }
