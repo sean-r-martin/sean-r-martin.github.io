@@ -1,15 +1,10 @@
 'use strict';
 
-(function createSkillList() {
-
-  var clientTag = document.getElementById('clientside-skills');
-  var serverTag = document.getElementById('serverside-skills');
+$(document).ready(function createSkillList() {
 
   function createSkill(skill, divTag) {
-    var listItem = document.createElement("p");
-    var textNode = document.createTextNode(skill);
-    listItem.appendChild(textNode);
-    divTag.appendChild(listItem);
+    var pTag = $("<p></p>").text(skill);
+    divTag.append(pTag);
   }
 
   var clientSkills = [
@@ -34,6 +29,9 @@
     'Ruby',
   ];
 
+  var clientTag = $('#clientside-skills');
+  var serverTag = $('#serverside-skills');
+
   clientSkills.forEach(function (skill) {
     createSkill(skill, clientTag);
   });
@@ -41,4 +39,4 @@
     createSkill(skill, serverTag);
   });
 
-})();
+});

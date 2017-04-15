@@ -22,6 +22,39 @@ header {
   align-items: center;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  text-align: right;
+  font-size: 25px;
+  padding-right: 40px;
+}
+
+.nav-background-color {
+  background-color: rgba(11, 26, 57, 0.8); //$darkblue
+}
+
+.nav-link {
+  color: $lightblue;
+  display: inline;
+  margin: auto 10px;
+  opacity: 0.7;
+
+  &:visited {
+    text-decoration: none;
+    color: $lightblue;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $lightblue;
+  }
+}
+
 .site-section {
   font-size: 20px;
   min-height: 100vh;
@@ -153,5 +186,12 @@ header {
     text-decoration: none;
     background-color: $darkblue;
     color: $lightblue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    text-align: center;
+    padding-right: 0px;
   }
 }

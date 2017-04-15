@@ -1,15 +1,13 @@
 'use strict';
 
-(function createNaviDescription() {
-  var divTag = document.getElementById('story-text');
+$(document).ready(function createNaviDescription() {
 
   function createText(text) {
-    var pTag = document.createElement("p");
-    var textNode = document.createTextNode(text);
-    pTag.appendChild(textNode);
-    divTag.appendChild(pTag);
+    var pTag = $("<p></p>").text(text);
+    divTag.append(pTag);
   }
 
+  var divTag = $('#story-text');
   var storyText = [];
 
   storyText.push(
@@ -26,4 +24,4 @@
     createText(text);
   });
 
-})();
+});

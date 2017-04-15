@@ -10,6 +10,14 @@
         <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
     </head>
     <body>
+        <nav>
+            <div>
+                <a href="#" id="contact-link" class="nav-link">Contact</a>
+                <a href="#" id="story-link" class="nav-link">My Story</a>
+                <a href="#" id="skills-link" class="nav-link">Skills</a>
+                <a href="#" id="projects-link" class="nav-link">Projects</a>
+            </div>
+        </nav>
         <header>
             <div class="container">
                 <h1 class="section-title">Sean Martin</h1>
@@ -35,7 +43,7 @@
             </div>
         </header>
         <main>
-            <section class="site-section background1">
+            <section id="story-section" class="site-section background1">
                 <div class="container">
                     <div class="row">
                         <h1 id="story-title" class="section-title">My Story</h1>
@@ -86,7 +94,7 @@
                     </div>
                 </div>
             </section>
-            <section class="background1">
+            <section id="projects-section" class="background1">
                 <h1 class="section-title">Projects</h1>
                 <div class="single-project">
                     <iframe class="video" src="https://www.youtube.com/embed/b2JN5TdgRHg" frameborder="0" allowfullscreen></iframe>
@@ -114,10 +122,12 @@
                 </div>
             </section>
         </main>
+        <script src="/js/jquery-3.2.1.min.js"></script>
         <script src="/js/story.js"></script>
         <script src="/js/skills.js"></script>
         <script src="/js/projectAutoLingo.js"></script>
         <script src="/js/projectNavi.js"></script>
         <script src="/js/projectTechTalk.js"></script>
+        <script src="/js/navbar.js"></script>
     </body>
 </html>

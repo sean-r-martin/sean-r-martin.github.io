@@ -1,15 +1,13 @@
 'use strict';
 
-(function createAutoLingoDescription() {
-  var divTag = document.getElementById('autolingo-text');
+$(document).ready(function createAutoLingoDescription() {
 
   function createText(text) {
-    var pTag = document.createElement("p");
-    var textNode = document.createTextNode(text);
-    pTag.appendChild(textNode);
-    divTag.appendChild(pTag);
+    var pTag = $("<p></p>").text(text);
+    divTag.append(pTag);
   }
 
+  var divTag = $('#autolingo-text');
   var autoLingoText = [];
 
   autoLingoText.push(
@@ -29,4 +27,4 @@
     createText(text)
   });
 
-})();
+});
