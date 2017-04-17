@@ -8,7 +8,7 @@ $(document).ready(function createSkillList() {
   }
 
   var clientSkills = [
-    'JavaScript (ES6)',
+    'JavaScript',
     'React.js',
     'Redux',
     'HTML5',
