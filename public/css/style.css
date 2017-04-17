@@ -25,6 +25,9 @@ nav {
   font-size: 25px;
   padding-right: 40px; }
 
+#navbar-row {
+  margin: 10px 0; }
+
 .nav-background-color {
   background-color: rgba(11, 26, 57, 0.8); }
 
@@ -60,17 +63,25 @@ nav {
   font-size: 100px;
   margin: 0; }
   .section-title#story-title {
-    padding-bottom: 10vh; }
+    margin: 5vh 0; }
   .section-title#skill-title {
-    padding-bottom: 2vh; }
+    margin: 5vh 0; }
+  .section-title#project-title {
+    padding-top: 5vh; }
+
+#sub-title {
+  margin: 0 0 5vh 0; }
 
 #story-text {
-  text-align: left; }
+  text-align: left;
+  margin: 0 3vh 5vh 3vh;
+  padding: 0; }
   #story-text p {
     margin-bottom: 20px; }
 
 .skill-list-title {
   font-size: 30px;
+  margin-top: 0px;
   text-decoration: underline; }
 
 #clientside-skills {
@@ -85,9 +96,14 @@ nav {
   display: flex;
   justify-content: center; }
 
+#skill-container {
+  margin-bottom: 5vh; }
+
+#projects-section hr {
+  border-color: #0b1a39; }
+
 .single-project {
-  padding-top: 8vh;
-  padding-bottom: 5vh;
+  padding: 5vh 0;
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
@@ -97,16 +113,19 @@ nav {
   flex-basis: 50%;
   flex-grow: 1;
   min-width: 300px;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 0 3vh; }
+
+.project-text h1 {
+  text-align: left; }
 
 .video {
   flex-basis: 560px;
-  height: 315px; }
+  height: 315px;
+  margin: 0 3vh; }
 
 .project-description {
-  text-align: left;
-  padding-left: 6vh;
-  padding-right: 2vh; }
+  text-align: left; }
   .project-description p {
     margin-bottom: 20px; }
 
