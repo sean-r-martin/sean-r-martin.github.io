@@ -11,7 +11,7 @@ $(document).ready(function createAutoLingoDescription() {
   var autoLingoText = [];
 
   autoLingoText.push(
-    'AutoLingo is a web application that allows multiple users speaking different languages to communicate with each other in real time. A user selects their desired language and then enters a Group Chat room and can also starts one-on-one Video Chat.'
+    'AutoLingo is a web application that allows multiple users speaking different languages to communicate with each other in real time. A user selects their desired language, then enters a Group Chat room and can also start a one-on-one Video Chat.'
   );
   autoLingoText.push(
     'Group Chat - Multiple users can enter a chat room and speak any language they select. Any messages received in a different language, will be translated into the user’s selected language, then displayed on their conversation log.'

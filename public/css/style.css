@@ -16,6 +16,13 @@ header {
   display: flex;
   align-items: center; }
 
+footer {
+  text-align: left;
+  padding: 15px 15px; }
+
+footer p {
+  display: inline; }
+
 nav {
   position: fixed;
   top: 0;
