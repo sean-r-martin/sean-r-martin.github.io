@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // if no routes match, this line servers up index.html
 app.use('*', function (req, res) {
-  res.sendFile(path.join(__dirname, '../public'));
+  res.sendFile(path.join(__dirname, '../'));
 });
 
 app.use(function (err, req, res, next) {
