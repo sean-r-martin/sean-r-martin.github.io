@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 
 app.use(morgan('dev'));
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../')));
 
 // if no routes match, this line servers up index.html
 app.use('*', function (req, res) {
