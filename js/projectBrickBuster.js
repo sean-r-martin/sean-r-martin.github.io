@@ -2,23 +2,19 @@
 
 $(document).ready(function createBrickBusterDescription() {
 
-  function createText(text) {
-    var pTag = $("<p></p>").text(text);
-    divTag.append(pTag);
-  }
-
   var divTag = $('#brick-buster-text');
   var brickBusterText = [];
 
   brickBusterText.push(
-    'A web based version of the classic 2D game Breakout!'
+    "A web based version of the classic 2D game Breakout. See if you can bust 'em all!"
   );
   brickBusterText.push(
-    'Built with: ES6 JavaScript, Babel, Webpack and Node.js.'
+    'Built with - HTML5 Canvas, ES6 JavaScript, Babel, Webpack and Node.js.'
   );
 
   brickBusterText.forEach(function (text) {
-    createText(text);
+    var pTag = $("<p></p>").text(text);
+    divTag.append(pTag);
   });
 
 });

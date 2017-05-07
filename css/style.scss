@@ -1,5 +1,6 @@
 $lightblue: #c5dce7;
 $darkblue: #0b1a39;
+$lightgreen: #90ee90;
 
 html {
   box-sizing: border-box;
@@ -17,9 +18,15 @@ body	{
 header {
   min-height: 100vh;
   color: $lightblue;
-  text-shadow: 3px 3px black;
   display: flex;
   align-items: center;
+  text-shadow: 3px 3px black;
+  #sub-title {
+    text-shadow: 2px 2px black;
+  }
+  .icon-title {
+    text-shadow: 2px 2px black;
+  }
 }
 
 footer {
@@ -37,11 +44,13 @@ nav {
   z-index: 100;
   width: 100vw;
   text-align: right;
-  font-size: 25px;
+  font-size: 30px;
   padding-right: 40px;
+  text-shadow: 2px 2px black;
 }
 
 #navbar-row {
+  font-family: 'Iceland', cursive;
   margin: 10px 0;
 }
 
@@ -70,7 +79,6 @@ nav {
 
 .site-section {
   font-size: 20px;
-  min-height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -86,8 +94,9 @@ nav {
 }
 
 .section-title {
-  font-size: 100px;
+  font-size: 130px;
   margin: 0;
+  font-family: 'Iceland', cursive;
 
   &#story-title {
     margin: 5vh 0;
@@ -100,13 +109,25 @@ nav {
   }
 }
 
+.individual-project-title {
+  font-family: 'Iceland', cursive;
+  font-size: 45px;
+}
+
 #sub-title {
+  font-family: 'Iceland', cursive;
+  font-size: 50px;
   margin: 0 0 5vh 0;
+}
+
+#story-section {
+  justify-content: center;
 }
 
 #story-text {
   text-align: left;
-  margin: 0 3vh 5vh 3vh;
+  max-width: 700px;
+  margin: 0 3vh 10vh 3vh;
   padding: 0;
   p {
     margin-bottom: 20px;
@@ -114,7 +135,8 @@ nav {
 }
 
 .skill-list-title {
-  font-size: 30px;
+  font-family: 'Iceland', cursive;
+  font-size: 40px;
   margin-top: 0px;
   text-decoration: underline;
 }
@@ -130,7 +152,6 @@ nav {
 }
 
 #skill-section {
-  display: flex;
   justify-content: center;
 }
 
@@ -139,10 +160,11 @@ nav {
 }
 
 #projects-section hr {
+  border-width: 2px;
   border-color: $darkblue;
 }
 
-.single-project {
+.individual-project {
   padding: 5vh 0;
   display: flex;
   flex-grow: 1;
@@ -154,6 +176,7 @@ nav {
   flex-basis: 50%;
   flex-grow: 1;
   min-width: 300px;
+  max-width: 700px;
   font-size: 20px;
   margin: 0 3vh;
 }
@@ -191,17 +214,24 @@ nav {
     color: $lightblue;
   }
   &:hover {
-    color: $darkblue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: $lightblue;
+    border-radius: 50%;
+    padding: 15px 30px;
+    color: $lightblue;
   }
 }
 
 .icon-title {
-  font-size: 30px;
+  font-family: 'Iceland', cursive;
+  font-size: 40px;
 }
 
 .link-button {
-  font-size: 23px;
-  padding: 10px;
+  font-family: 'Iceland', cursive;
+  font-size: 28px;
+  padding: 7px;
   border-style: solid;
   border-radius: 25px;
   border-color: $darkblue;
