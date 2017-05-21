@@ -20,4 +20,5 @@ $(document).ready(function createAutoLingoDescription() {
     divTag.append(pTag);
   });
 
+  divTag.append('<p>(<b>Warning!</b>: speech-to-text is only supported in the chrome browser)</p>')
 });

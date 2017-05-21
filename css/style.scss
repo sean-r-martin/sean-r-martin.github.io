@@ -127,7 +127,7 @@ nav {
 #story-text {
   text-align: left;
   max-width: 700px;
-  margin: 0 3vh 10vh 3vh;
+  margin: 0 3vh 5vh 3vh;
   padding: 0;
   p {
     margin-bottom: 20px;
@@ -187,6 +187,7 @@ nav {
 
 .media {
   flex-basis: 560px;
+  flex-shrink: 0;
   height: 315px;
   margin: 0 3vh;
 }
@@ -210,6 +211,10 @@ nav {
 .icon {
   font-size: 100px;
   color: $lightblue;
+  &#email-icon, &#resume-icon {
+    font-size: 85px;
+  }
+
   &:focus {
     color: $lightblue;
   }
@@ -218,8 +223,14 @@ nav {
     border-width: 5px;
     border-color: $lightblue;
     border-radius: 50%;
-    padding: 15px 30px;
+    padding: 5px 20px;
     color: $lightblue;
+    &#email-icon {
+      padding: 10px 20px;
+    }
+    &#resume-icon {
+      padding: 12px 25px;
+    }
   }
 }
 

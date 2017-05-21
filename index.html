@@ -25,11 +25,11 @@
                 <div id="icons" class="row">
                     <div class="col-xs-6 col-sm-3">
                         <p class="icon-title">Email</p>
-                        <a class="icon" href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a id="email-icon" class="icon" href="mailto:sean.r.martin@live.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                     </div>
                     <div class="col-xs-6 col-sm-3">
                         <p class="icon-title">Resume</p>
-                        <a class="icon" href="/docs/Sean Martin's Resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                        <a id="resume-icon" class="icon" href="/docs/Sean Martin's Resume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                     </div>
                     <div class="col-xs-6 col-sm-3">
                         <p class="icon-title">LinkedIn</p>
@@ -103,12 +103,22 @@
                 </div>
                 <hr>
                 <div class="individual-project">
-                  <img class="media" src="./img/brick-buster.jpg" alt="Brick Buster">
+                  <img class="media" src="./img/brick-buster.jpg" alt="Brick Buster homepage">
                   <div class="project-text">
                     <h1 class="individual-project-title">Brick Buster: Classic 2D Game</h1>
                     <div id="brick-buster-text" class="project-description"></div>
                     <a class="link-button" target="_blank" href="http://www.sean-r-martin.com/brick-buster">Live App</a>
                     <a class="link-button" target="_blank" href="https://github.com/sean-r-martin/brick-buster">GitHub</a>
+                  </div>
+                </div>
+                <hr>
+                <div class="individual-project">
+                  <img class="media" src="./img/homemade.jpg" alt="Homemade homepage">
+                  <div class="project-text">
+                    <h1 class="individual-project-title">Homemade: Online Recipe Book</h1>
+                    <div id="homemade-text" class="project-description"></div>
+                    <a class="link-button" target="_blank" href="https://homemade-recipes.herokuapp.com/">Live App</a>
+                    <a class="link-button" target="_blank" href="https://github.com/sean-r-martin/homemade">GitHub</a>
                   </div>
                 </div>
                 <hr>
@@ -131,7 +141,9 @@
                 </div>
             </section>
         </main>
-        <footer class="background2"><p>© 2017 Sean Martin</p></footer>
+        <footer class="background2">
+            <p>© 2017 Sean Martin</p>
+        </footer>
         <script src="/js/jquery-3.2.1.min.js"></script>
         <script src="/js/story.js"></script>
         <script src="/js/skills.js"></script>
@@ -139,6 +151,7 @@
         <script src="/js/projectNavi.js"></script>
         <script src="/js/projectTechTalk.js"></script>
         <script src="/js/projectBrickBuster.js"></script>
+        <script src="/js/projectHomemade.js"></script>
         <script src="/js/navbar.js"></script>
     </body>
 </html>
