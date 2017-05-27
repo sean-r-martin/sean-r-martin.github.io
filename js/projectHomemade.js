@@ -6,7 +6,7 @@ $(document).ready(function createHomemadeDescription() {
   var homemadeText = [];
 
   homemadeText.push(
-    "An online Recipe book, with access to over 1.5 million recipes. Search for recipes based on the types provided or use the search bar to find your own."
+    "An online recipe book, with access to over 1.5 million recipes. Search for recipes based on the types provided or use the search bar to find your own."
   );
   homemadeText.push(
     'Built with - React, Redux, Express.js and Node.js'
