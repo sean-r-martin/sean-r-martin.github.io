@@ -11,13 +11,13 @@ $(document).ready(function createNaviDescription() {
   var storyText = [];
 
   storyText.push(
-    "I'm Sean Martin, a former Accountant, who recently transitioned into Software Engineering. While I liked accounting, I've always had a passion for coding. So, to help me break into the field, I decided to attend a coding bootcamp in NYC called Fullstack Academy. There, I learned full stack web development using JavaScript via Node.js, along with React, Redux, and PostgreSQL. Now, I'm looking for my first full time position in the field."
+    "I'm Sean Martin, a former Accountant who transitioned into Software Engineering. I love solving problems through code, and creating meaningful applications. I have the skills to work with both frontend and backend technologies, and I value a TDD style."
   );
   storyText.push(
-    'I love solving problems through code, and creating meaningful applications. I have the skills to work with both frontend and backend technologies, and I value a test driven development style.'
+    'Some of the technologies I like to use often, are JavaScript, Node.js, React.js, Redux PostgreSQL and Express.js.'
   );
   storyText.push(
-    'In my free time, I work on side projects, practice Muay Thai, play in a kickball league, and cycle around NYC.'
+    'In my free time, I work on coding side projects, practice Muay Thai, play in a kickball league, and ride my bike around NYC.'
   );
 
   storyText.forEach(function (text) {

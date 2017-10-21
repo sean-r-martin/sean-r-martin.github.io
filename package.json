@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/sean-r-martin/react-boilerplate#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "morgan": "^1.8.1",
-    "node-sass": "^4.5.2",
-    "nodemon": "^1.11.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.1",
     "path": "^0.12.7"
   }
 }
