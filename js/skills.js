@@ -11,22 +11,22 @@ $(document).ready(function createSkillList() {
     'JavaScript',
     'React.js',
     'Redux',
+    'jQuery',
     'HTML5',
     'CSS3',
-    'AJAX',
-    'jQuery',
-    'Bootstrap'
+    'Jest',
+    'Git'
   ];
 
   var serverSkills = [
+    'Ruby',
+    'Python',
+    'Java',
+    'Rails',
     'Node.js',
     'Express.js',
-    'PostgreSQL',
-    'Sequelize',
-    'Mocha',
-    'Chai',
-    'Git',
-    'Ruby',
+    'MySQL',
+    'RSpec'
   ];
 
   var clientTag = $('#clientside-skills');

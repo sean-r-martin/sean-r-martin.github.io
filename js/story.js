@@ -11,13 +11,11 @@ $(document).ready(function createNaviDescription() {
   var storyText = [];
 
   storyText.push(
-    "I'm Sean Martin, a former Accountant who transitioned into Software Engineering. I love solving problems through code, and creating meaningful applications. I have the skills to work with both frontend and backend technologies, and I value a TDD style."
+    "Hi I'm Sean Martin! I'm a software engineer who loves solving problems through code and creating interesting applications. I have the skills to work with both frontend and backend technologies and I value a Test Driven Development style."
   );
+  
   storyText.push(
-    'Some of the technologies I like to use often, are JavaScript, Node.js, React.js, Redux PostgreSQL and Express.js.'
-  );
-  storyText.push(
-    'In my free time, I work on coding side projects, practice Muay Thai, play in a kickball league, and ride my bike around NYC.'
+    'In my free time, I work on side projects, play in a kickball league, and ride my bike around NYC.'
   );
 
   storyText.forEach(function (text) {
